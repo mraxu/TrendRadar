@@ -1,5 +1,5 @@
 app:
-  version_check_url: "https://raw.githubusercontent.com/sansan0/TrendRadar/refs/heads/master/version"
+  version_check_url: "https://raw.bgithub.xyz/sansan0/TrendRadar/refs/heads/master/version"
   show_version_update: true # 控制显示版本更新提示，改成 false 将不接受新版本提示
 
 crawler:
@@ -24,7 +24,7 @@ crawler:
 #   • 适用场景：避免重复信息干扰
 
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: "incremental" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
